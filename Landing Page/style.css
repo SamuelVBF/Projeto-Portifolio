@@ -222,6 +222,12 @@ input[type="submit"]{
     cursor: pointer;
 }
 
+.inscrever:hover{
+    background-color: silver;
+    transition: 00.3s all;
+    color: black;
+}
+
            /* FOTTER REDES SOCIAIS */
 
 .redes-sociais h3{
