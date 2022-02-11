@@ -1,0 +1,239 @@
+body{
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: #15161B;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2{
+    color:aqua;
+    font-size: 50px;
+}
+
+.logo span{
+    color: #fff;
+}
+
+.secao-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.titulo-principal h3{
+    color: #fff;
+    font-weight: normal;
+    margin-top: 100px;
+    padding: auto;
+}
+
+.titulo-principal h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -18px;
+}
+
+.titulo-principal a{
+    display: inline-block;
+    background-color:#1A7993;
+    padding: 10px 45px;
+    color: #fff;
+    color:inherit;
+    font-size: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.titulo-principal a:hover{
+    background-color: #fff;
+    transition: 00.3s all;
+    color: black;
+}
+
+.imagem-principal img{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px; 
+}
+
+                           /* AREA CARDS */
+
+.area-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: silver;
+    height: 400px;
+}
+
+.area-cards h2{
+    color: #1A7993;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.card{
+    background-color: #2C2F37;
+    width: 150px;
+    height: 130px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 5px; 
+}
+
+.card:hover{
+    background-color:#1A7993;
+    transition: 0.3s all;
+}
+
+.card img{
+    width: 40px; 
+}
+ 
+            /*   AMBIENTE 3 */
+
+.ambiente-3{
+    background-color: #1A7993;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.descricao-comunidade h1{
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px;
+    margin-top: -130px;
+    margin-left: -400px;
+    line-height: 50px;
+}
+
+.descricao-comunidade h3{
+    position: absolute;
+    margin-left: -400px;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100px;
+    padding: auto;   
+}
+
+.descricao-comunidade a{
+    position: absolute;
+    margin-left: -400px;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #fff;
+    color:inherit;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.descricao-comunidade a:hover{
+    background-color: #15161B;
+    transition: 00.3s all;
+    color: #fff;
+}
+
+.ambiente-3 img{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    margin-top: -150px;
+    margin-left: -55px;
+}
+
+        /*  FORMULARIO */
+        
+.area-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.area-formulario h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+.formulario-padrao form{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-padrao input{
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: "Oswald";
+    font-weight: bold;
+}
+
+input::placeholder{
+    color: black;
+    text-transform: uppercase;
+}
+
+input[type="submit"]{
+    background-color: #1A7993;
+    height: 55px;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+           /* FOTTER REDES SOCIAIS */
+
+.redes-sociais h3{
+    color: #fff;
+    font-weight: normal;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.redes-sociais img{
+    width: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
